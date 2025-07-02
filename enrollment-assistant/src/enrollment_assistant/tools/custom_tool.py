@@ -7,7 +7,7 @@ class LerHistorico(BaseTool):
     description: str = (
         "Lê arquivos em PDF no formato de Texto"
     )
-    path: str = "/home/moab/IBM/enrollment-assistant/enrollment_assistant/knowledge/historico_cortado.pdf"
+    path: str = "/knowledge/<path_do_historico>"
 
     def _run(self) -> str:
         conteudo = ""
