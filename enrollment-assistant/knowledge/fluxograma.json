@@ -1,0 +1,67 @@
+{ "Disclaimer":"Esse fluxograma está organizado por Período -> Disciplina -> [Pré-requisitos]",
+  "Período 1": {
+    "Fundamentos de Matemática para Ciência da Computação I": [],
+    "Introdução à Computação": [],
+    "Laboratório de Programação I": [],
+    "Programação I": [],
+    "Direito e Cidadania": []
+  },
+  "Período 2": {
+    "Fundamentos de Matemática para Ciência da Computação II": ["Fundamentos de Matemática para Ciência da Computação I"],
+    "Cálculo Diferencial e Integral I": ["Fundamentos de Matemática para Ciência da Computação I"],
+    "Laboratório de Programação II": ["Laboratório de Programação I", "Programação I"],
+    "Programação II": ["Laboratório de Programação I", "Programação I"],
+    "Economia": []
+  },
+  "Período 3": {
+    "Lógica para Computação": ["Fundamentos de Matemática para Ciência da Computação II"],
+    "Cálculo Diferencial e Integral II": ["Cálculo Diferencial e Integral I"],
+    "Laboratório de Estrutura de Dados e Algoritmos": ["Laboratório de Programação II", "Programação II"],
+    "Estrutura de Dados e Algoritmos": ["Laboratório de Programação II", "Programação II"],
+    "Álgebra Linear I": ["Fundamentos de Matemática para Ciência da Computação II"]
+  },
+  "Período 4": {
+    "Teoria da Computação": ["Lógica para Computação"],
+    "Introdução à Probabilidade": ["Cálculo Diferencial e Integral II"],
+    "Organização e Arquitetura de Computadores": ["Introdução à Computação"],
+    "Banco de Dados I": ["Estrutura de Dados e Algoritmos"],
+    "Teoria dos Grafos": ["Fundamentos de Matemática para Ciência da Computação I", "Laboratório de Programação II", "Programação II"],
+    "Paradigmas de Linguagens de Programação": ["Laboratório de Programação II", "Programação II"]
+  },
+  "Período 5": {
+    "Inteligência Artificial": ["Teoria da Computação"],
+    "Estatística Aplicada": ["Introdução à Probabilidade"],
+    "Sistemas Operacionais": ["Organização e Arquitetura de Computadores"],
+    "Projeto de Software": ["Estrutura de Dados e Algoritmos", "Laboratório de Estrutura de Dados e Algoritmos"],
+    "Engenharia de Software": ["Laboratório de Programação II", "Programação II"],
+    "Redes de Computadores": ["Introdução à Computação"]
+  },
+  "Período 6": {
+    "Optativa_1": [],
+    "Optativa_2": [],
+    "Programação Concorrente": ["Sistemas Operacionais"],
+    "Análise de Sistemas": ["Projeto de Software"],
+    "Análise e Técnicas de Algoritmos": ["Teoria dos Grafos", "Paradigmas de Linguagens de Programação"]
+  },
+  "Período 7": {
+    "Compiladores": ["Paradigmas de Linguagens de Programação", "Teoria da Computação"],
+    "Metodologia Científica": ["Estatística Aplicada"],
+    "Optativa_4": [],
+    "Optativa_5": [],
+    "Optativa_6": []
+  },
+  "Período 8": {
+    "Língua Portuguesa": [],
+    "Optativa_7": [],
+    "Optativa_8": [],
+    "Optativa_9": [],
+    "Projeto em Computação I": ["Engenharia de Software", "Análise de Sistemas"]
+  },
+  "Período 9": {
+    "Trabalho de Conclusão de Curso": ["Língua Portuguesa", "Metodologia Científica"],
+    "Optativa_10": [],
+    "Optativa_11": [],
+    "Optativa_12": [],
+    "Projeto em Computação II": ["Projeto em Computação I"]
+  }
+}
