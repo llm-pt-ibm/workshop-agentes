@@ -1,6 +1,5 @@
 import sys
 import warnings
-from enrollment_assistant.utils import ler_pdf_para_string
 from datetime import datetime
 
 from enrollment_assistant.crew import EnrollmentAssistant
