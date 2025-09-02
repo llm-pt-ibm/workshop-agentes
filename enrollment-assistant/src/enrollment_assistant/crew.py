@@ -42,12 +42,12 @@ class EnrollmentAssistant():
             verbose=True,
             knowledge_sources=[self.fluxograma, self.optativas],
             embedder={
-                "provider": "google",
-                "config": {
-                    "api_key": os.getenv("GEMINI_API_KEY"),
-                    "model": "text-embedding-004" 
+                    "provider": "google",
+                    "config": {
+                        "api_key": os.getenv("GEMINI_API_KEY"),
+                        "model": "models/text-embedding-004"
+            }
         }
-    }
         )
 
     @task

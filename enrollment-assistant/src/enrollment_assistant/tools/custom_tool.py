@@ -7,7 +7,7 @@ class LerHistorico(BaseTool):
     description: str = (
         "Lê arquivos em PDF no formato de Texto"
     )
-    path: str = "/knowledge/<path_do_historico>"
+    path: str = "knowledge/historico_cortado.pdf"
 
     def _run(self) -> str:
         conteudo = ""
