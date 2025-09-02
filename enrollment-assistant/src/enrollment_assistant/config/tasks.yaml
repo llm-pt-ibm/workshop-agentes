@@ -2,7 +2,9 @@ extrair_perfil:
   description: >
     Criar um perfil de um estudante com base no histórico acadêmico dele.
   expected_output: >
-    Uma lista de disciplinas já cursadas e um report conciso com o perfil dele em computação (incluindo áreas de interesse e áreas de dificuldade)
+    A resposta final deve ser uma lista de disciplinas já cursadas, as disciplinas 
+    que o aluno está matriculado atualmente e um report conciso com o perfil dele em computação
+    (incluindo áreas de interesse e áreas de dificuldade)
   agent: analista
 
 recomendar_disciplinas:
@@ -13,6 +15,7 @@ recomendar_disciplinas:
     Não selecionar disciplinas (obrigatórias ou optativas) que o aluno já foi aprovado ou que está matriculado atualmente.
     A matrícula deve ser em no mínimo 4 disciplinas e no máximo 7.
   expected_output: >
-    Uma lista das disciplinas que o estudante deve cursar esse período em bullets e, ao final de tudo, uma curta explicação das decisões.
+    A resposta final deve ser lista das disciplinas que o estudante deve cursar esse período em bullets e,
+    ao final de tudo, uma curta explicação das decisões.
   agent: recomendador
 
